@@ -6,6 +6,7 @@ import Nav from './Nav';
 import Row from './Row';
 
 import requests from './requests';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         title="Documentaries Movies"
         fetchUrl={requests.fetchDocumentaries}
       />
-    
+    <Footer />
     </div>
   );
 }
